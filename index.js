@@ -1027,6 +1027,6 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
   });
 }
 
-pres.writeFile({ fileName: "/home/claude/Albania_VIP_Tourism.pptx" })
+pres.writeFile({ fileName: "./Albania_VIP_Tourism.pptx" })
   .then(() => console.log("Done!"))
   .catch(e => console.error(e));
