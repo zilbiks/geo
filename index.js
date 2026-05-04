@@ -52,7 +52,7 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
   // Red accent line
   s.addShape(pres.shapes.RECTANGLE, { x: 0.5, y: 2.75, w: 2.5, h: 0.05, fill: { color: C.red }, line: { color: C.red } });
 
-  s.addText("Projekts 12. klasei  ·  20.04.–24.04.2026.", {
+  s.addText("Projekts 12. klasei  -  20.04.–24.04.2026.", {
     x: 0.5, y: 2.9, w: 7, h: 0.4, fontSize: 14, color: C.silver,
     fontFace: "Calibri", align: "left", margin: 0
   });
@@ -75,7 +75,7 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
   });
 
   // Latvian cities
-  s.addText("Balvi · Daugavpils · Ventspils · Liepāja", {
+  s.addText("Balvi - Daugavpils - Ventspils - Liepāja", {
     x: 0.5, y: 5.15, w: 9, h: 0.35, fontSize: 11, color: C.gray4,
     fontFace: "Calibri", align: "left", margin: 0
   });
@@ -115,7 +115,7 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
   s.background = { color: C.darkGray };
 
   s.addShape(pres.shapes.RECTANGLE, { x: 0, y: 0, w: 10, h: 0.9, fill: { color: C.gray1 }, line: { color: C.gray1 } });
-  s.addText("1. POSMS  ·  INTERVIJAS JAUTĀJUMI", {
+  s.addText("1. POSMS  -  INTERVIJAS JAUTĀJUMI", {
     x: 0.4, y: 0, w: 9, h: 0.9, fontSize: 13, color: C.red, bold: true,
     fontFace: "Calibri", charSpacing: 2, align: "left", valign: "middle", margin: 0
   });
@@ -158,7 +158,7 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
   s.background = { color: C.darkGray };
 
   s.addShape(pres.shapes.RECTANGLE, { x: 0, y: 0, w: 10, h: 0.9, fill: { color: C.gray1 }, line: { color: C.gray1 } });
-  s.addText("1. POSMS  ·  INTERVIJA Nr. 1", {
+  s.addText("1. POSMS  -  INTERVIJA Nr. 1", {
     x: 0.4, y: 0, w: 9, h: 0.9, fontSize: 13, color: C.red, bold: true,
     fontFace: "Calibri", charSpacing: 2, align: "left", valign: "middle", margin: 0
   });
@@ -172,10 +172,10 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
   const rows = [
     ["APMEKLĒTĀ VALSTS", "Albānija – Tirana un Berat (2022. gadā, 10 dienas)"],
     ["GAIDAS", "Gaidīja neizpētītu Eiropas valsti ar unikālu kultūru. Gaidas pilnībā piepildījās."],
-    ["IESPAIDĪGĀKĀS VIETAS", "Berat vecpilsēta · Skadar ezers · Skanderbega laukums Tiranā"],
+    ["IESPAIDĪGĀKĀS VIETAS", "Berat vecpilsēta - Skadar ezers - Skanderbega laukums Tiranā"],
     ["GRŪTĪBAS", "Ceļu infrastruktūra lauku apvidos – daļa maršrutu nav asfaltēta"],
     ["IETEIKUMI", "Byrek un tavë kosi ir obligāti! Ņemt līdzi skaidru naudu."],
-    ["TRANSPORTS", "Rīga → Vīne → Tirana  (Austrian Airlines, ~5 h)"],
+    ["TRANSPORTS", "Rīga -> Vīne -> Tirana  (Austrian Airlines, ~5 h)"],
     ["ATKĀRTOTS APMEKLĒJUMS", "Noteikti! Vēlas apmeklēt Albānijas Alpes (Theth) un Xhamil pludmales."],
   ];
 
@@ -198,7 +198,7 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
   s.background = { color: C.darkGray };
 
   s.addShape(pres.shapes.RECTANGLE, { x: 0, y: 0, w: 10, h: 0.9, fill: { color: C.gray1 }, line: { color: C.gray1 } });
-  s.addText("1. POSMS  ·  INTERVIJA Nr. 2", {
+  s.addText("1. POSMS  -  INTERVIJA Nr. 2", {
     x: 0.4, y: 0, w: 9, h: 0.9, fontSize: 13, color: C.red, bold: true,
     fontFace: "Calibri", charSpacing: 2, align: "left", valign: "middle", margin: 0
   });
@@ -211,10 +211,10 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
   const rows = [
     ["APMEKLĒTĀ VALSTS", "Albānija un Melnkalne kombinētā tura veidā (2023. gadā, 12 dienas)"],
     ["GAIDAS", "Interesēja Balkānu vēsture un pieejamas cenas. Albānija bija lētākā Eiropas valsts."],
-    ["IESPAIDĪGĀKĀS VIETAS", "Butrint UNESCO drupas · Xhamil kristālskaidrais ūdens · Gjirokastra cietoksnis"],
+    ["IESPAIDĪGĀKĀS VIETAS", "Butrint UNESCO drupas - Xhamil kristālskaidrais ūdens - Gjirokastra cietoksnis"],
     ["GRŪTĪBAS", "Valodas barjera lauku rajonos – angļu valoda zināma tikai jauniešiem."],
     ["IETEIKUMI", "Nomāt auto – vienīgais veids, kā sasniegt tālākos punktus. Albānieši ir ļoti draudzīgi."],
-    ["TRANSPORTS", "Rīga → Helsinki → Tirana  (Finnair, ~6 h)"],
+    ["TRANSPORTS", "Rīga -> Helsinki -> Tirana  (Finnair, ~6 h)"],
     ["ATKĀRTOTS APMEKLĒJUMS", "Jā! Vēlas apmeklēt arī Vlorë un dienvidu piekrasti pavasarī."],
   ];
 
@@ -237,14 +237,14 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
   s.background = { color: C.darkGray };
 
   s.addShape(pres.shapes.RECTANGLE, { x: 0, y: 0, w: 10, h: 0.9, fill: { color: C.gray1 }, line: { color: C.gray1 } });
-  s.addText("1. POSMS  ·  SECINĀJUMI NO INTERVIJĀM", {
+  s.addText("1. POSMS  -  SECINĀJUMI NO INTERVIJĀM", {
     x: 0.4, y: 0, w: 9, h: 0.9, fontSize: 13, color: C.red, bold: true,
     fontFace: "Calibri", charSpacing: 2, align: "left", valign: "middle", margin: 0
   });
 
   const cards = [
     ["NEIZPĒTĪTS DĀRGAKMENS", "Abiem intervējamajiem Albānija bija pozitīvas pārsteiguma pilna pieredze — vēl nav pārsātināta ar tūristiem."],
-    ["TRANSPORTS", "Rīga → Tirana ir sasniedzama ar 1 pārsēšanos caur Vīni vai Helsinkiem (~5–6 h kopā)."],
+    ["TRANSPORTS", "Rīga -> Tirana ir sasniedzama ar 1 pārsēšanos caur Vīni vai Helsinkiem (~5–6 h kopā)."],
     ["CENAS", "Ēdināšana, nakšņošana un ieejas biļetes ir ievērojami lētākas nekā Rīgā vai Rietumeiropā."],
     ["GRŪTĪBAS", "Angļu valoda nav pieejama lauku rajonos; daļa ceļu nav asfaltēti."],
     ["IEDZĪVOTĀJI", "Abi intervējamie uzsvēra albāniešu draudzīgumu un atvērtību tūristiem."],
@@ -294,7 +294,7 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
     x: 0.7, y: 2.6, w: 7, h: 0.6, fontSize: 16, color: C.silver,
     fontFace: "Calibri", align: "left", margin: 0
   });
-  s.addText("Daugavpils · Ventspils · Liepāja", {
+  s.addText("Daugavpils - Ventspils - Liepāja", {
     x: 0.7, y: 3.2, w: 7, h: 0.5, fontSize: 14, color: C.red,
     fontFace: "Calibri", bold: true, align: "left", margin: 0
   });
@@ -308,7 +308,7 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
   s.background = { color: C.darkGray };
 
   s.addShape(pres.shapes.RECTANGLE, { x: 0, y: 0, w: 10, h: 0.9, fill: { color: C.gray1 }, line: { color: C.gray1 } });
-  s.addText("2. POSMS  ·  VĒRTĒŠANAS KRITĒRIJI", {
+  s.addText("2. POSMS  -  VĒRTĒŠANAS KRITĒRIJI", {
     x: 0.4, y: 0, w: 9, h: 0.9, fontSize: 13, color: C.red, bold: true,
     fontFace: "Calibri", charSpacing: 2, align: "left", valign: "middle", margin: 0
   });
@@ -354,7 +354,7 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
   s.background = { color: C.darkGray };
 
   s.addShape(pres.shapes.RECTANGLE, { x: 0, y: 0, w: 10, h: 0.9, fill: { color: C.gray1 }, line: { color: C.gray1 } });
-  s.addText("2. POSMS  ·  LATVIJAS GALAMĒRĶU SALĪDZINĀJUMS", {
+  s.addText("2. POSMS  -  LATVIJAS GALAMĒRĶU SALĪDZINĀJUMS", {
     x: 0.4, y: 0, w: 9, h: 0.9, fontSize: 13, color: C.red, bold: true,
     fontFace: "Calibri", charSpacing: 2, align: "left", valign: "middle", margin: 0
   });
@@ -419,14 +419,14 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
   s.background = { color: C.darkGray };
 
   s.addShape(pres.shapes.RECTANGLE, { x: 0, y: 0, w: 10, h: 0.9, fill: { color: C.gray1 }, line: { color: C.gray1 } });
-  s.addText("2. POSMS  ·  VENTSPILS — ĀRVALSTU TŪRISTA PERSPEKTĪVA", {
+  s.addText("2. POSMS  -  VENTSPILS — ĀRVALSTU TŪRISTA PERSPEKTĪVA", {
     x: 0.4, y: 0, w: 9, h: 0.9, fontSize: 13, color: C.red, bold: true,
     fontFace: "Calibri", charSpacing: 2, align: "left", valign: "middle", margin: 0
   });
 
   // Left column - positives
   s.addShape(pres.shapes.RECTANGLE, { x: 0.35, y: 1.0, w: 4.4, h: 0.5, fill: { color: "1A3A1A" }, line: { color: "2A5A2A" } });
-  s.addText("✓  POZITĪVIE ASPEKTI", { x: 0.35, y: 1.0, w: 4.4, h: 0.5, fontSize: 12, bold: true, color: "66DD66", fontFace: "Calibri", align: "center", valign: "middle" });
+  s.addText("[OK]  POZITĪVIE ASPEKTI", { x: 0.35, y: 1.0, w: 4.4, h: 0.5, fontSize: 12, bold: true, color: "66DD66", fontFace: "Calibri", align: "center", valign: "middle" });
 
   const pros = [
     "Lielisks jūras kūrorts ar tīru pludmali",
@@ -447,7 +447,7 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
 
   // Right column - negatives
   s.addShape(pres.shapes.RECTANGLE, { x: 5.25, y: 1.0, w: 4.4, h: 0.5, fill: { color: "3A1A1A" }, line: { color: "5A2A2A" } });
-  s.addText("✕  NEGATĪVIE ASPEKTI", { x: 5.25, y: 1.0, w: 4.4, h: 0.5, fontSize: 12, bold: true, color: "FF6666", fontFace: "Calibri", align: "center", valign: "middle" });
+  s.addText("[X]  NEGATĪVIE ASPEKTI", { x: 5.25, y: 1.0, w: 4.4, h: 0.5, fontSize: 12, bold: true, color: "FF6666", fontFace: "Calibri", align: "center", valign: "middle" });
 
   const cons = [
     "Sezonalitāte — aktīvs tikai vasarā",
@@ -493,7 +493,7 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
     x: 0.7, y: 2.55, w: 7, h: 0.55, fontSize: 18, color: C.red, bold: true,
     fontFace: "Calibri", align: "left", margin: 0
   });
-  s.addText("Iespējas un draudi  ·  20.04.–24.04.2026.", {
+  s.addText("Iespējas un draudi  -  20.04.–24.04.2026.", {
     x: 0.7, y: 3.1, w: 7, h: 0.5, fontSize: 14, color: C.silver,
     fontFace: "Calibri", align: "left", margin: 0
   });
@@ -507,19 +507,19 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
   s.background = { color: C.darkGray };
 
   s.addShape(pres.shapes.RECTANGLE, { x: 0, y: 0, w: 10, h: 0.9, fill: { color: C.gray1 }, line: { color: C.gray1 } });
-  s.addText("3. POSMS  ·  ALBĀNIJA — ĢEOGRĀFISKAIS APRAKSTS", {
+  s.addText("3. POSMS  -  ALBĀNIJA — ĢEOGRĀFISKAIS APRAKSTS", {
     x: 0.4, y: 0, w: 9, h: 0.9, fontSize: 13, color: C.red, bold: true,
     fontFace: "Calibri", charSpacing: 2, align: "left", valign: "middle", margin: 0
   });
 
   const geoData = [
     ["NOVIETOJUMS", "Dienvideiropa, Balkānu pussala\n41°20' Z platums, 20°00' A garums"],
-    ["ROBEŽVALSTIS", "Melnkalne · Serbija · Ziemeļmaķedonija · Grieķija"],
-    ["JŪRAS", "Rietumos: Adrijas jūra · Dienvidrietumos: Jonijas jūra"],
+    ["ROBEŽVALSTIS", "Melnkalne - Serbija - Ziemeļmaķedonija - Grieķija"],
+    ["JŪRAS", "Rietumos: Adrijas jūra - Dienvidrietumos: Jonijas jūra"],
     ["RELJEFS", "~70% kalnu — Albānijas Alpes ziemeļos. Piekrastes līdzenumi rietumos."],
-    ["IEKŠĒJIE ŪDEŅI", "Skadar ezers (lielākais Balkānos) · Ohrid ezers · kalnu upes"],
+    ["IEKŠĒJIE ŪDEŅI", "Skadar ezers (lielākais Balkānos) - Ohrid ezers - kalnu upes"],
     ["KLIMATS", "Vidusjūras (piekrastē): karsts, sauss vasarā\nKontinentāls: kalnos — vēsāks"],
-    ["DABAS RESURSI", "Siltas pludmales · nacionālie parki · kalnu ainavas · seno pilsētu drupas"],
+    ["DABAS RESURSI", "Siltas pludmales - nacionālie parki - kalnu ainavas - seno pilsētu drupas"],
     ["TŪRISMA NOZĪME", "Albānija — viena no straujāk augošajiem galamērķiem Eiropā"],
   ];
 
@@ -547,17 +547,17 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
   s.background = { color: C.darkGray };
 
   s.addShape(pres.shapes.RECTANGLE, { x: 0, y: 0, w: 10, h: 0.9, fill: { color: C.gray1 }, line: { color: C.gray1 } });
-  s.addText("3. POSMS  ·  TRANSPORTS — BALVI → TIRANA", {
+  s.addText("3. POSMS  -  TRANSPORTS — BALVI -> TIRANA", {
     x: 0.4, y: 0, w: 9, h: 0.9, fontSize: 13, color: C.red, bold: true,
     fontFace: "Calibri", charSpacing: 2, align: "left", valign: "middle", margin: 0
   });
 
   // Transport steps visual
   const steps = [
-    { label: "BALVI", sub: "Autobuss → Rīga", detail: "~3 h  ·  ~8 €", icon: "BUS" },
-    { label: "RĪGA", sub: "Finnair → Helsinki", detail: "~1h 10min  ·  ~80 €", icon: "RIX" },
-    { label: "HELSINKI", sub: "Finnair AY → Tirana", detail: "~3h 20min  ·  ~180–280 €", icon: "HEL" },
-    { label: "TIRANA", sub: "Galamērķis sasniegts!", detail: "Kopā: ~8 h  ·  ~268–368 €", icon: "TIA" },
+    { label: "BALVI", sub: "Autobuss -> Rīga", detail: "~3 h  -  ~8 €", icon: "BUS" },
+    { label: "RĪGA", sub: "Finnair -> Helsinki", detail: "~1h 10min  -  ~80 €", icon: "RIX" },
+    { label: "HELSINKI", sub: "Finnair AY -> Tirana", detail: "~3h 20min  -  ~180–280 €", icon: "HEL" },
+    { label: "TIRANA", sub: "Galamērķis sasniegts!", detail: "Kopā: ~8 h  -  ~268–368 €", icon: "TIA" },
   ];
 
   steps.forEach((st, i) => {
@@ -588,15 +588,15 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
     "Gaisa transports ir vienīgais saprātīgais variants 5 dienu ceļojumam no Latvijas uz Albāniju. " +
     "Citi varianti (autobuss ~36 h, vilciens ar vairākām pārsēšanās) nav praktiski. " +
     "Finnair maršruts caur Helsinkiem — 1 pārsēšanās, stabils savienojums, konkurētspējīgas cenas. " +
-    "Avoti: www.finnair.com · google.com/flights",
+    "Avoti: www.finnair.com - google.com/flights",
     { x: 0.5, y: 3.85, w: 9.0, h: 0.6, fontSize: 10.5, color: C.lightGray, fontFace: "Calibri" }
   );
 
   // Internal transport note
   s.addShape(pres.shapes.RECTANGLE, { x: 0.35, y: 4.6, w: 9.3, h: 0.75, fill: { color: "1A1A2A" }, line: { color: C.gray4 } });
   s.addText("IEKŠĒJAIS TRANSPORTS ALBĀNIJĀ — nomāts auto vai furgoni (furgon): " +
-    "Tirana → Berat (~2h, ~5€)  ·  Berat → Sarandë (~3.5h, ~8€)  ·  Sarandë ↔ Xhamil/Butrint (~30min, ~3€)  ·  " +
-    "Tirana → Theth (~5h, ~15€ ar mini-busu)",
+    "Tirana -> Berat (~2h, ~5€)  -  Berat -> Sarandë (~3.5h, ~8€)  -  Sarandë ↔ Xhamil/Butrint (~30min, ~3€)  -  " +
+    "Tirana -> Theth (~5h, ~15€ ar mini-busu)",
     { x: 0.5, y: 4.6, w: 9.0, h: 0.75, fontSize: 10, color: C.silver, fontFace: "Calibri", valign: "middle" }
   );
 }
@@ -609,7 +609,7 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
   s.background = { color: C.darkGray };
 
   s.addShape(pres.shapes.RECTANGLE, { x: 0, y: 0, w: 10, h: 0.9, fill: { color: C.gray1 }, line: { color: C.gray1 } });
-  s.addText("3. POSMS  ·  CEĻOJUMA MARŠRUTS — 5 DIENAS, 7+ OBJEKTI", {
+  s.addText("3. POSMS  -  CEĻOJUMA MARŠRUTS — 5 DIENAS, 7+ OBJEKTI", {
     x: 0.4, y: 0, w: 9, h: 0.9, fontSize: 13, color: C.red, bold: true,
     fontFace: "Calibri", charSpacing: 2, align: "left", valign: "middle", margin: 0
   });
@@ -651,7 +651,7 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
 
   // Summary bar
   s.addShape(pres.shapes.RECTANGLE, { x: 0.35, y: 5.1, w: 9.3, h: 0.38, fill: { color: C.red }, line: { color: C.red } });
-  s.addText("KOPĀ: 9 apskates objekti  ·  5 pilsētas  ·  Tirana → Berat → Xhamil/Sarandë → Butrint → Theth → Tirana", {
+  s.addText("KOPĀ: 9 apskates objekti  -  5 pilsētas  -  Tirana -> Berat -> Xhamil/Sarandë -> Butrint -> Theth -> Tirana", {
     x: 0.35, y: 5.1, w: 9.3, h: 0.38, fontSize: 10, bold: true, color: C.white,
     fontFace: "Calibri", align: "center", valign: "middle"
   });
@@ -665,7 +665,7 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
   s.background = { color: C.darkGray };
 
   s.addShape(pres.shapes.RECTANGLE, { x: 0, y: 0, w: 10, h: 0.9, fill: { color: C.gray1 }, line: { color: C.gray1 } });
-  s.addText("3. POSMS  ·  APSKATES OBJEKTU APRAKSTI", {
+  s.addText("3. POSMS  -  APSKATES OBJEKTU APRAKSTI", {
     x: 0.4, y: 0, w: 9, h: 0.9, fontSize: 13, color: C.red, bold: true,
     fontFace: "Calibri", charSpacing: 2, align: "left", valign: "middle", margin: 0
   });
@@ -708,7 +708,7 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
   s.background = { color: C.darkGray };
 
   s.addShape(pres.shapes.RECTANGLE, { x: 0, y: 0, w: 10, h: 0.9, fill: { color: C.gray1 }, line: { color: C.gray1 } });
-  s.addText("3. POSMS  ·  MARŠRUTA KARTE — ALBĀNIJA", {
+  s.addText("3. POSMS  -  MARŠRUTA KARTE — ALBĀNIJA", {
     x: 0.4, y: 0, w: 9, h: 0.9, fontSize: 13, color: C.red, bold: true,
     fontFace: "Calibri", charSpacing: 2, align: "left", valign: "middle", margin: 0
   });
@@ -794,14 +794,14 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
   s.background = { color: C.darkGray };
 
   s.addShape(pres.shapes.RECTANGLE, { x: 0, y: 0, w: 10, h: 0.9, fill: { color: C.gray1 }, line: { color: C.gray1 } });
-  s.addText("3. POSMS  ·  IZMAKSU KALKULĀCIJA", {
+  s.addText("3. POSMS  -  IZMAKSU KALKULĀCIJA", {
     x: 0.4, y: 0, w: 9, h: 0.9, fontSize: 13, color: C.red, bold: true,
     fontFace: "Calibri", charSpacing: 2, align: "left", valign: "middle", margin: 0
   });
 
   const costs = [
     ["Aviobiļetes (Finnair, turp+atpakaļ)", "—", "—", "~260–360 €"],
-    ["Autobuss Balvi → Rīga (turp+atpakaļ)", "—", "—", "~16 €"],
+    ["Autobuss Balvi -> Rīga (turp+atpakaļ)", "—", "—", "~16 €"],
     ["Iekšējais transports Albānijā", "~6–10 €", "4 d.", "~24–40 €"],
     ["Nakšņošana (hostel / 2★ viesnīca)", "~20–35 €", "4 n.", "~80–140 €"],
     ["Ēdināšana (3x dienā)", "~12–20 €", "5 d.", "~60–100 €"],
@@ -852,7 +852,7 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
   s.background = { color: C.darkGray };
 
   s.addShape(pres.shapes.RECTANGLE, { x: 0, y: 0, w: 10, h: 0.9, fill: { color: C.gray1 }, line: { color: C.gray1 } });
-  s.addText("3. POSMS  ·  IESPĒJAMIE RISKI UN ANALĪZE", {
+  s.addText("3. POSMS  -  IESPĒJAMIE RISKI UN ANALĪZE", {
     x: 0.4, y: 0, w: 9, h: 0.9, fontSize: 13, color: C.red, bold: true,
     fontFace: "Calibri", charSpacing: 2, align: "left", valign: "middle", margin: 0
   });
@@ -900,10 +900,10 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
   });
 
   const conclusions = [
-    { num: "01", title: "ALBĀNIJA — EIROPAS DĀRGAKMENS", body: "Dienvideiropa · Balkāni · Adrijas un Jonijas jūra\nLētākā Vidusjūras valsts ar unikālu vēsturi un dabu" },
-    { num: "02", title: "TRANSPORTS", body: "Rīga → Helsinki → Tirana  (Finnair, 1 pārsēšanās)\nKopējais laiks: ~8 h  ·  Biļetes: ~268–368 €" },
-    { num: "03", title: "MARŠRUTS: 5 DIENAS, 9 OBJEKTI", body: "Tirana → Berat → Xhamil → Butrint → Theth\n2× UNESCO mantojums · pludmales · kalni" },
-    { num: "04", title: "IZMAKSAS", body: "Kopā: ~516–781 €  ·  ~50–85 €/dienā\nLētāka par Grieķiju, Horvātiju vai Itāliju" },
+    { num: "01", title: "ALBĀNIJA — EIROPAS DĀRGAKMENS", body: "Dienvideiropa - Balkāni - Adrijas un Jonijas jūra\nLētākā Vidusjūras valsts ar unikālu vēsturi un dabu" },
+    { num: "02", title: "TRANSPORTS", body: "Rīga -> Helsinki -> Tirana  (Finnair, 1 pārsēšanās)\nKopējais laiks: ~8 h  -  Biļetes: ~268–368 €" },
+    { num: "03", title: "MARŠRUTS: 5 DIENAS, 9 OBJEKTI", body: "Tirana -> Berat -> Xhamil -> Butrint -> Theth\n2× UNESCO mantojums - pludmales - kalni" },
+    { num: "04", title: "IZMAKSAS", body: "Kopā: ~516–781 €  -  ~50–85 €/dienā\nLētāka par Grieķiju, Horvātiju vai Itāliju" },
     { num: "05", title: "GALVENIE RISKI", body: "Lauku ceļi (risinājums: SUV/mini-buss)\nValodas barjera (risinājums: Google Translate)" },
   ];
 
@@ -938,7 +938,7 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
   s.background = { color: C.darkGray };
 
   s.addShape(pres.shapes.RECTANGLE, { x: 0, y: 0, w: 10, h: 0.9, fill: { color: C.gray1 }, line: { color: C.gray1 } });
-  s.addText("IZMANTOTIE AVOTI  ·  PAŠIZVĒRTĒŠANA", {
+  s.addText("IZMANTOTIE AVOTI  -  PAŠIZVĒRTĒŠANA", {
     x: 0.4, y: 0, w: 9, h: 0.9, fontSize: 13, color: C.red, bold: true,
     fontFace: "Calibri", charSpacing: 2, align: "left", valign: "middle", margin: 0
   });
@@ -956,7 +956,7 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
     "www.booking.com — nakšņošanas cenu aptauja",
     "www.visit.balvi.lv — Balvu novada tūrisms",
     "Wikipedia — Albānijas ģeogrāfija un vēsture",
-    "www.visitventspils.com · www.visitdaugavpils.lv",
+    "www.visitventspils.com - www.visitdaugavpils.lv",
   ];
 
   sources.forEach((src, i) => {
@@ -1008,12 +1008,12 @@ const makeShadow = () => ({ type: "outer", blur: 12, offset: 3, angle: 135, colo
 
   s.addShape(pres.shapes.RECTANGLE, { x: 3.5, y: 2.75, w: 3, h: 0.05, fill: { color: C.red }, line: { color: C.red } });
 
-  s.addText("Projekts \"Starptautiskais tūrisms: VIP\"  ·  12. klase", {
+  s.addText("Projekts \"Starptautiskais tūrisms: VIP\"  -  12. klase", {
     x: 1, y: 2.9, w: 8, h: 0.45, fontSize: 14, color: C.silver,
     fontFace: "Calibri", align: "center", margin: 0
   });
 
-  const stages = ["1. POSMS: Viedokļi ✓", "2. POSMS: Izvērtēšana ✓", "3. POSMS: Pētījums – Albānija ✓"];
+  const stages = ["1. POSMS: Viedokļi [OK]", "2. POSMS: Izvērtēšana [OK]", "3. POSMS: Pētījums – Albānija [OK]"];
   stages.forEach((st, i) => {
     const x = 1.0 + i * 2.8;
     s.addShape(pres.shapes.RECTANGLE, { x, y: 3.5, w: 2.5, h: 0.65, fill: { color: C.gray1 }, line: { color: C.gray3 } });
